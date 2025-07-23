@@ -99,8 +99,8 @@ const paymentPage = ({ username }) => {
 
                 <Script src="https://checkout.razorpay.com/v1/checkout.js" strategy="afterInteractive" />
 
-                <div className='cover w-full relative'>
-                    <img className='object-cover w-full h-[350]' src={currentUser.coverpic} alt="" />
+                <div className='cover w-full relative flex justify-center mt-10'>
+                    <img className='object-cover w-[90%] h-[75vh]' src={currentUser.coverpic} alt="" />
                     <div className='absolute -bottom-20 right-[47%] border-white border-2 rounded-full h-100'>
                         <img className="w-24 h-24 rounded-full object-cover" src={currentUser.profilepic} alt="" />
 
